@@ -1,0 +1,31 @@
+{
+	"Print to console with name": {
+		"prefix": "logn",
+		"body": [
+		 "console.log('$1', $1);"
+		],
+		"description": "Log output to console named"
+	 },
+
+	 "Print to console Red text": {
+		"prefix": "logr",
+		"body": [
+		 "console.log('\\x1b[31m%s\\x1b[0m', $1);"
+		],
+		"description": "Log output to console red text"
+	 },
+	 "Print to console Blue text": {
+		"prefix": "logb",
+		"body": [
+		 "console.log('\\x1b[34m%s\\x1b[0m', $1);"	
+		],
+		"description": "Log output to console blue text"
+	 },
+	 "Print to console Green text": {
+		"prefix": "logg",
+		"body": [
+		 "console.log('\\x1b[32m%s\\x1b[0m', $1);"
+		],
+		"description": "Log output to console green text"
+	 }
+}
